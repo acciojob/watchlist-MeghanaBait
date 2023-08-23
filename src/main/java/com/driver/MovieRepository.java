@@ -37,7 +37,7 @@ public class MovieRepository {
         return directorMovieMapping.getOrDefault(director, new ArrayList<>());
     }
 
-    public List<String> getAllMovies() {
+    public List<String> findAllMovies() {
         return new ArrayList<>(movies.keySet());
     }
 
